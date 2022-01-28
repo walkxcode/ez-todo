@@ -1,0 +1,37 @@
+const text = [
+	'Hi!',
+	'Hey!',
+	'Hi there!',
+	'Hey there!',
+	'Yo!',
+	'Heya!',
+	'Howdy!',
+	'Whazzup?',
+	'Hello, sunshine!',
+	'Peek-a-boo!',
+	'Здравейте!',
+	'你好!',
+	'Dobrý den!',
+	'Hej!',
+	'Hallo!',
+	'Tere!',
+	'Hei!',
+	'Bonjour!',
+	'Guten Tag!',
+	'Γεια σας!',
+	'Helló!',
+	'Ciao!',
+	'こんにちは。',
+	'Sveiki!',
+	'Witam!',
+	'Olá!',
+	'Salut!',
+	'Здравствуйте!',
+	'Dobrý deň!',
+	'Pozdravljeni!',
+	'¡Hola!',
+	'Hej!'
+];
+const i = Math.round(Math.random() * text.length);
+var Message = text[i];
+export { Message };
